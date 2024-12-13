@@ -20,8 +20,11 @@ class LoginScreen extends StatelessWidget {
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
+            const Image(
+              image: AssetImage(bundle: null,'assets/mnc_logo.png'),
+            ),
             const SizedBox(height: 20),
-            Image.asset('assets/mnc_logo.png', width: 150),
+            //Image.asset('assets/mnc_logo.png', width: 150),
             const SizedBox(height: 20),
             TextField(
               controller: usernameController,
